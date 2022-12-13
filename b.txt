@@ -1,0 +1,2 @@
+df["tempreture_lag_1"]=df["tempreture"].shift(1)
+df.head()
