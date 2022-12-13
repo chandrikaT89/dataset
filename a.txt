@@ -1,0 +1,8 @@
+import numpy as np
+import pandas as pd
+df=pd.DataFrame({
+    "data":pd.date_range(start="2020-5-1",periods=100,freq="D"),
+    "tempreture":np.random.randint(18,30,size=100)+
+                 np.random.random(100).round(1)
+})
+df.hea()
